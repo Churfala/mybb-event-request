@@ -1,0 +1,49 @@
+/* MyBB Event Request - settings page (custom question builder) */
+
+#evreq-questions {
+    max-width: 900px;
+}
+
+.evreq-q-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+}
+
+.evreq-q-row .evreq-q-label {
+    flex: 1 1 240px;
+}
+
+.evreq-q-row .evreq-q-type {
+    flex: 0 0 180px;
+}
+
+.evreq-q-row .evreq-q-options {
+    flex: 1 1 200px;
+    min-height: 2.4rem;
+}
+
+.evreq-q-row .evreq-q-required {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding-top: 0.35rem;
+}
+
+.evreq-q-remove {
+    flex: 0 0 auto;
+    color: #b32d2e;
+    font-size: 1.3rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+}
+
+.evreq-q-remove:hover {
+    color: #8a1f1f;
+}

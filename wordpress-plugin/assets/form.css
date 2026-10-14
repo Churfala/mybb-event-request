@@ -1,0 +1,106 @@
+/* MyBB Event Request form */
+
+.evreq-form {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.evreq-form p {
+    margin: 0 0 1rem;
+}
+
+.evreq-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.evreq-form input[type="text"],
+.evreq-form input[type="email"],
+.evreq-form input[type="tel"],
+.evreq-form input[type="url"],
+.evreq-form input[type="date"],
+.evreq-form input[type="time"],
+.evreq-form select,
+.evreq-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.55rem 0.65rem;
+    border: 1px solid #b8b8b8;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.evreq-form textarea {
+    resize: vertical;
+}
+
+.evreq-req {
+    color: #b32d2e;
+}
+
+/* Two fields side by side, stacking on narrow screens. */
+.evreq-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.evreq-row > p {
+    flex: 1 1 240px;
+}
+
+.evreq-fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem 1.25rem 0.25rem;
+    margin: 0 0 1.25rem;
+}
+
+.evreq-fieldset legend {
+    font-weight: 700;
+    padding: 0 0.5rem;
+}
+
+.evreq-submit button {
+    background: #1a1a1a;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.evreq-submit button:hover {
+    background: #000;
+}
+
+/* The honeypot: kept in the DOM for bots, out of sight and out of the tab order for people
+   and screen readers. Not display:none, which some bots skip. */
+.evreq-hp {
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.evreq-notice {
+    padding: 0.85rem 1rem;
+    border-radius: 4px;
+    margin: 0 0 1.25rem;
+}
+
+.evreq-ok {
+    background: #e4f5e9;
+    border: 1px solid #1a7f37;
+    color: #0f5021;
+}
+
+.evreq-error {
+    background: #fbeaea;
+    border: 1px solid #b32d2e;
+    color: #8a1f1f;
+}

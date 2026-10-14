@@ -1,0 +1,3 @@
+# This project deploys to Linux (MyBB forum, WordPress). Keep LF endings in the repo.
+* text=auto eol=lf
+*.png binary

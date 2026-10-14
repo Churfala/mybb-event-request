@@ -1,0 +1,11 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Never commit real secrets - the token lives in site config, not the repo
+*.local.php
+secrets.txt
